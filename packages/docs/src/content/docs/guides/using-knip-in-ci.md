@@ -19,9 +19,9 @@ name: Lint project
 on: push
 
 jobs:
-  lint:
+  knip:
     runs-on: ubuntu-latest
-    name: Ubuntu/Node v20
+    name: Knip
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
